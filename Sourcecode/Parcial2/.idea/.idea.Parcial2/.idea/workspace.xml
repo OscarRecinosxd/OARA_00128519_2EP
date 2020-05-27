@@ -24,12 +24,27 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipalUsuario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipalUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Modelo/Conexion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Direcciones.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/AdmiOpciones.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/AdmiOpciones.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Negocios.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Negocios.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Negocio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Productos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Productos.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/NegocioDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Producto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/OrdenesPedidas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/OrdenesPedidas.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/MenuUsuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/MenuUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/OrdenesUsuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/OrdenesUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modelo/Conexion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/UsuarioDAO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Modelo/Direcciones.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipal.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/CambiarContra.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,13 +63,27 @@
         <option value="$PROJECT_DIR$/UsuarioDAO.cs" />
         <option value="$PROJECT_DIR$/Properties/CambiarContra.cs" />
         <option value="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.Designer.cs" />
-        <option value="$PROJECT_DIR$/Vista/Form1.cs" />
         <option value="$PROJECT_DIR$/Modelo/UsuarioDAO.cs" />
         <option value="$PROJECT_DIR$/Vista/fmrPrincipal.Designer.cs" />
         <option value="$PROJECT_DIR$/Vista/fmrPrincipal.cs" />
         <option value="$PROJECT_DIR$/Modelo/Direcciones.cs" />
         <option value="$PROJECT_DIR$/Modelo/Conexion.cs" />
         <option value="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.cs" />
+        <option value="$PROJECT_DIR$/Vista/AdmiOpciones.Designer.cs" />
+        <option value="$PROJECT_DIR$/Vista/Productos.Designer.cs" />
+        <option value="$PROJECT_DIR$/Modelo/NegocioDAO.cs" />
+        <option value="$PROJECT_DIR$/Modelo/Negocio.cs" />
+        <option value="$PROJECT_DIR$/Vista/Negocios.cs" />
+        <option value="$PROJECT_DIR$/Vista/Negocios.Designer.cs" />
+        <option value="$PROJECT_DIR$/Modelo/Producto.cs" />
+        <option value="$PROJECT_DIR$/Vista/Productos.cs" />
+        <option value="$PROJECT_DIR$/Vista/OrdenesPedidas.Designer.cs" />
+        <option value="$PROJECT_DIR$/Vista/AdmiOpciones.cs" />
+        <option value="$PROJECT_DIR$/Vista/OrdenesPedidas.cs" />
+        <option value="$PROJECT_DIR$/Vista/MenuUsuario.Designer.cs" />
+        <option value="$PROJECT_DIR$/Vista/Form1.cs" />
+        <option value="$PROJECT_DIR$/Vista/MenuUsuario.cs" />
+        <option value="$PROJECT_DIR$/Vista/OrdenesUsuario.Designer.cs" />
       </list>
     </option>
   </component>
@@ -101,7 +130,8 @@
       <updated>1590594348502</updated>
       <workItem from="1590594353005" duration="3836000" />
       <workItem from="1590599866981" duration="2332000" />
-      <workItem from="1590602201895" duration="3937000" />
+      <workItem from="1590602201895" duration="6970000" />
+      <workItem from="1590609787233" duration="6186000" />
     </task>
     <servers />
   </component>
@@ -111,22 +141,22 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1877" height="116" key="GridCell.Tab.0.bottom" timestamp="1590606020987">
+    <state width="1877" height="119" key="GridCell.Tab.0.bottom" timestamp="1590616957609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="116" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590606020987" />
-    <state width="1877" height="116" key="GridCell.Tab.0.center" timestamp="1590606020987">
+    <state width="1877" height="119" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590616957609" />
+    <state width="1877" height="119" key="GridCell.Tab.0.center" timestamp="1590616957609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="116" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590606020987" />
-    <state width="1877" height="116" key="GridCell.Tab.0.left" timestamp="1590606020987">
+    <state width="1877" height="119" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590616957609" />
+    <state width="1877" height="119" key="GridCell.Tab.0.left" timestamp="1590616957609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="116" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590606020987" />
-    <state width="1877" height="116" key="GridCell.Tab.0.right" timestamp="1590606020987">
+    <state width="1877" height="119" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590616957609" />
+    <state width="1877" height="119" key="GridCell.Tab.0.right" timestamp="1590616957609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="116" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590606020987" />
+    <state width="1877" height="119" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590616957609" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1590602861150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

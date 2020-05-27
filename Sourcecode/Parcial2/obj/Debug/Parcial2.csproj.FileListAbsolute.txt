@@ -34,3 +34,8 @@ C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.csproj.CopyComplete
 C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.Properties.CambiarContra.resources
 C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.fmrPrincipal.resources
 C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.fmrPrincipalUsuario.resources
+C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.AdmiOpciones.resources
+C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.Negocios.resources
+C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.Productos.resources
+C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.OrdenesPedidas.resources
+C:\Users\Recinos\Rider projects\Parcial2\obj\Debug\Parcial2.MenuUsuario.resources

@@ -9,6 +9,9 @@
       <e p="Modelo" t="Include">
         <e p="Conexion.cs" t="Include" />
         <e p="Direcciones.cs" t="Include" />
+        <e p="Negocio.cs" t="Include" />
+        <e p="NegocioDAO.cs" t="Include" />
+        <e p="Producto.cs" t="Include" />
         <e p="Usuario.cs" t="Include" />
         <e p="UsuarioDAO.cs" t="Include" />
       </e>
@@ -29,6 +32,9 @@
         <e p="Settings.settings" t="Include" />
       </e>
       <e p="Vista" t="Include">
+        <e p="AdmiOpciones.cs" t="Include" />
+        <e p="AdmiOpciones.Designer.cs" t="Include" />
+        <e p="AdmiOpciones.resx" t="Include" />
         <e p="fmrPrincipal.cs" t="Include" />
         <e p="fmrPrincipal.Designer.cs" t="Include" />
         <e p="fmrPrincipal.resx" t="Include" />
@@ -38,6 +44,20 @@
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
+        <e p="MenuUsuario.cs" t="Include" />
+        <e p="MenuUsuario.Designer.cs" t="Include" />
+        <e p="MenuUsuario.resx" t="Include" />
+        <e p="Negocios.cs" t="Include" />
+        <e p="Negocios.Designer.cs" t="Include" />
+        <e p="Negocios.resx" t="Include" />
+        <e p="OrdenesPedidas.cs" t="Include" />
+        <e p="OrdenesPedidas.Designer.cs" t="Include" />
+        <e p="OrdenesPedidas.resx" t="Include" />
+        <e p="OrdenesUsuario.cs" t="Include" />
+        <e p="OrdenesUsuario.Designer.cs" t="Include" />
+        <e p="Productos.cs" t="Include" />
+        <e p="Productos.Designer.cs" t="Include" />
+        <e p="Productos.resx" t="Include" />
       </e>
     </e>
   </component>

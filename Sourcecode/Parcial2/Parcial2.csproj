@@ -90,6 +90,9 @@
     <ItemGroup>
         <Compile Include="Modelo\Conexion.cs" />
         <Compile Include="Modelo\Direcciones.cs" />
+        <Compile Include="Modelo\Negocio.cs" />
+        <Compile Include="Modelo\NegocioDAO.cs" />
+        <Compile Include="Modelo\Producto.cs" />
         <Compile Include="Modelo\Usuario.cs" />
         <Compile Include="Modelo\UsuarioDAO.cs" />
         <Compile Include="Program.cs" />
@@ -99,6 +102,12 @@
         </Compile>
         <Compile Include="Properties\CambiarContra.Designer.cs">
           <DependentUpon>CambiarContra.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Vista\AdmiOpciones.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Vista\AdmiOpciones.Designer.cs">
+          <DependentUpon>AdmiOpciones.cs</DependentUpon>
         </Compile>
         <Compile Include="Vista\fmrPrincipal.cs">
           <SubType>Form</SubType>
@@ -118,6 +127,36 @@
         <Compile Include="Vista\Form1.Designer.cs">
           <DependentUpon>Form1.cs</DependentUpon>
         </Compile>
+        <Compile Include="Vista\MenuUsuario.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Vista\MenuUsuario.Designer.cs">
+          <DependentUpon>MenuUsuario.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Vista\Negocios.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Vista\Negocios.Designer.cs">
+          <DependentUpon>Negocios.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Vista\OrdenesPedidas.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Vista\OrdenesPedidas.Designer.cs">
+          <DependentUpon>OrdenesPedidas.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Vista\OrdenesUsuario.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Vista\OrdenesUsuario.Designer.cs">
+          <DependentUpon>OrdenesUsuario.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Vista\Productos.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Vista\Productos.Designer.cs">
+          <DependentUpon>Productos.cs</DependentUpon>
+        </Compile>
         <EmbeddedResource Include="Properties\CambiarContra.resx">
           <DependentUpon>CambiarContra.cs</DependentUpon>
         </EmbeddedResource>
@@ -130,6 +169,9 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="Vista\AdmiOpciones.resx">
+          <DependentUpon>AdmiOpciones.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="Vista\fmrPrincipal.resx">
           <DependentUpon>fmrPrincipal.cs</DependentUpon>
         </EmbeddedResource>
@@ -138,6 +180,18 @@
         </EmbeddedResource>
         <EmbeddedResource Include="Vista\Form1.resx">
           <DependentUpon>Form1.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Vista\MenuUsuario.resx">
+          <DependentUpon>MenuUsuario.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Vista\Negocios.resx">
+          <DependentUpon>Negocios.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Vista\OrdenesPedidas.resx">
+          <DependentUpon>OrdenesPedidas.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Vista\Productos.resx">
+          <DependentUpon>Productos.cs</DependentUpon>
         </EmbeddedResource>
         <None Include="packages.config" />
         <None Include="Properties\Settings.settings">

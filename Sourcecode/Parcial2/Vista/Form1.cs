@@ -39,13 +39,13 @@ namespace Parcial2
 
         private void txtPassword_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) button1_Click(sender, e);
+           // if (e.KeyCode == Keys.Enter) button1_Click(sender, e);
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-        }
+       // private void button1_Click(object sender, EventArgs e)
+        //{
+        //}
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -63,15 +63,16 @@ namespace Parcial2
 
                 if (u.usertype)
                 {
-                    fmrPrincipal ventana = new fmrPrincipal(u);
+                    AdmiOpciones ventana = new AdmiOpciones(u);
                     ventana.Show();
                     this.Hide();
                 }
                 else
                 {
-                    fmrPrincipalUsuario ventana = new fmrPrincipalUsuario(u);
+                    MenuUsuario ventana = new MenuUsuario(u);
                     ventana.Show();
                     this.Hide();
+
                 }
 
             }
