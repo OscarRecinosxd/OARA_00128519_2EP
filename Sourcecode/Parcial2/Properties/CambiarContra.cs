@@ -37,7 +37,7 @@ namespace Parcial2.Properties
                 MessageBox.Show("¡¡Favor verifique que los datos sean correctos!", 
                     "HUGO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
-
+        
         private void CambiarContra_Load(object sender, EventArgs e)
         {
             cmbUsuario.DataSource = null;

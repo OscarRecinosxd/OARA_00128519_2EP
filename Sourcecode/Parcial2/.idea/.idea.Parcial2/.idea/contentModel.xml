@@ -6,12 +6,12 @@
     <e p="C:\Users\Recinos\Rider projects\Parcial2" t="IncludeRecursive">
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Conexion.cs" t="Include" />
-      <e p="fmrPrincipal.cs" t="Include" />
-      <e p="fmrPrincipal.Designer.cs" t="Include" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="Form1.resx" t="Include" />
+      <e p="Modelo" t="Include">
+        <e p="Conexion.cs" t="Include" />
+        <e p="Direcciones.cs" t="Include" />
+        <e p="Usuario.cs" t="Include" />
+        <e p="UsuarioDAO.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />
@@ -28,8 +28,17 @@
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
       </e>
-      <e p="Usuario.cs" t="Include" />
-      <e p="UsuarioDAO.cs" t="Include" />
+      <e p="Vista" t="Include">
+        <e p="fmrPrincipal.cs" t="Include" />
+        <e p="fmrPrincipal.Designer.cs" t="Include" />
+        <e p="fmrPrincipal.resx" t="Include" />
+        <e p="fmrPrincipalUsuario.cs" t="Include" />
+        <e p="fmrPrincipalUsuario.Designer.cs" t="Include" />
+        <e p="fmrPrincipalUsuario.resx" t="Include" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+      </e>
     </e>
   </component>
 </project>

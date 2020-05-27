@@ -64,20 +64,20 @@ namespace Parcial2.Properties
             this.RepetirNuevaContraseña.ForeColor = System.Drawing.Color.White;
             this.RepetirNuevaContraseña.Location = new System.Drawing.Point(31, 148);
             this.RepetirNuevaContraseña.Name = "RepetirNuevaContraseña";
-            this.RepetirNuevaContraseña.Size = new System.Drawing.Size(200, 21);
+            this.RepetirNuevaContraseña.Size = new System.Drawing.Size(199, 21);
             this.RepetirNuevaContraseña.TabIndex = 3;
             this.RepetirNuevaContraseña.Text = "Repetir nueva contraseña";
             // 
             // txtRepetirNueva
             // 
-            this.txtRepetirNueva.Location = new System.Drawing.Point(252, 146);
+            this.txtRepetirNueva.Location = new System.Drawing.Point(252, 147);
             this.txtRepetirNueva.Name = "txtRepetirNueva";
             this.txtRepetirNueva.Size = new System.Drawing.Size(150, 23);
             this.txtRepetirNueva.TabIndex = 2;
             // 
             // btnCambiarContraseña
             // 
-            this.btnCambiarContraseña.Location = new System.Drawing.Point(160, 199);
+            this.btnCambiarContraseña.Location = new System.Drawing.Point(160, 198);
             this.btnCambiarContraseña.Name = "btnCambiarContraseña";
             this.btnCambiarContraseña.Size = new System.Drawing.Size(147, 24);
             this.btnCambiarContraseña.TabIndex = 4;
