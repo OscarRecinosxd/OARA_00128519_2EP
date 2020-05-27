@@ -1,0 +1,48 @@
+CREATE TABLE APPUSER(
+    idUser Serial PRIMARY KEY,
+    fullname VARCHAR(50) NOT NULL,
+	username VARCHAR(50) NOT NULL,
+	password VARCHAR(50) NOT NULL,
+    UserType BOOL NOT NULL
+);
+
+CREATE TABLE ADDRESS(
+    idAddress Serial PRIMARY KEY,
+    idUser integer NOT NULL,
+	adress VARCHAR(150) NOT NULL
+);
+
+CREATE TABLE PRODUCT(
+    idProduct Serial PRIMARY KEY,
+    idBusiness integer NOT NULL,
+	name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE APPORDER(
+    idOrder Serial PRIMARY KEY,
+	createDate date NOT NULL,
+	idProduct integer NOT NULL,
+	idAddress integer NOT NULL
+);
+
+CREATE TABLE BUSINESS(
+    idBusiness Serial PRIMARY KEY,
+	name varchar(150) NOT NULL,
+	description varchar(150) NOT NULL
+);
+
+ALTER TABLE ADDRESS
+ADD CONSTRAINT fk_idUser
+FOREIGN KEY (idUser) REFERENCES APPUSER(idUser);
+
+ALTER TABLE PRODUCT
+ADD CONSTRAINT fk_idBusiness
+FOREIGN KEY (idBusiness) REFERENCES BUSINESS(idBusiness);
+
+ALTER TABLE APPORDER
+ADD CONSTRAINT fk_idProduct
+FOREIGN KEY (idProduct) REFERENCES PRODUCT(idProduct);
+
+ALTER TABLE APPORDER
+ADD CONSTRAINT fk_idAddress
+FOREIGN KEY (idAddress) REFERENCES ADDRESS(idAddress);
