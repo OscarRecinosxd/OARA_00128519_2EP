@@ -25,7 +25,7 @@ namespace Parcial2
                 try
                 {
 
-                    string sql = $"INSERT INTO ADDRESS(iduser,adress) VALUES(" +
+                    string sql = $"INSERT INTO ADDRESS(iduser,address) VALUES(" +
                                  $"'{pUsuario.iduser}'," +
                                  $"'{direccion}')";
                     Conexion.realizarAccion(sql);
@@ -34,7 +34,7 @@ namespace Parcial2
                     Limpiar();
                     cargarUsuarios();
                 }
-                catch (Exception exception)
+                catch (Exception)
                 {
                     MessageBox.Show("Error!");
                 }
@@ -53,7 +53,7 @@ namespace Parcial2
             try
             {
 
-                string sql = $"DELETE FROM ADDRESS WHERE ADRESS = '{direccion}' ";
+                string sql = $"DELETE FROM ADDRESS WHERE ADDRESS = '{direccion}' ";
                 Conexion.realizarAccion(sql);
                 MessageBox.Show("Dirección eliminada!");
                 poblar();
@@ -89,8 +89,8 @@ namespace Parcial2
                 try
                 {
 
-                    string sql = $"UPDATE ADDRESS SET adress = '{nuevaDireccion}' " +
-                                 $"WHERE adress ='{direccion}' ";
+                    string sql = $"UPDATE ADDRESS SET address = '{nuevaDireccion}' " +
+                                 $"WHERE address ='{direccion}' ";
                     Conexion.realizarAccion(sql);
                     MessageBox.Show("Dirección editada!");
                     poblar();

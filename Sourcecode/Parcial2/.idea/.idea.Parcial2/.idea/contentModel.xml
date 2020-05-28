@@ -23,18 +23,21 @@
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
-        <e p="CambiarContra.cs" t="Include" />
-        <e p="CambiarContra.Designer.cs" t="Include" />
-        <e p="CambiarContra.resx" t="Include" />
         <e p="Resources.Designer.cs" t="Include" />
         <e p="Resources.resx" t="Include" />
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
       </e>
+      <e p="Resources" t="Include">
+        <e p="Hugo.png" t="Include" />
+      </e>
       <e p="Vista" t="Include">
         <e p="AdmiOpciones.cs" t="Include" />
         <e p="AdmiOpciones.Designer.cs" t="Include" />
         <e p="AdmiOpciones.resx" t="Include" />
+        <e p="CambiarContra.cs" t="Include" />
+        <e p="CambiarContra.Designer.cs" t="Include" />
+        <e p="CambiarContra.resx" t="Include" />
         <e p="fmrPrincipal.cs" t="Include" />
         <e p="fmrPrincipal.Designer.cs" t="Include" />
         <e p="fmrPrincipal.resx" t="Include" />
@@ -55,6 +58,7 @@
         <e p="OrdenesPedidas.resx" t="Include" />
         <e p="OrdenesUsuario.cs" t="Include" />
         <e p="OrdenesUsuario.Designer.cs" t="Include" />
+        <e p="OrdenesUsuario.resx" t="Include" />
         <e p="Productos.cs" t="Include" />
         <e p="Productos.Designer.cs" t="Include" />
         <e p="Productos.resx" t="Include" />

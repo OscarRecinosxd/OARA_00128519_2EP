@@ -7,7 +7,7 @@ namespace Parcial2
     {
         
             private static string CadenaConexion = 
-                "Server=localhost;Port=5432;User Id=postgres;Password=uca;Database=Parcial2;";
+                "Server=localhost;Port=5432;User Id=postgres;Password=uca;Database=Parcial02;";
             
             
             public static DataTable realizarConsulta(string sql)

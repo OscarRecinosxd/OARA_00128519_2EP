@@ -66,7 +66,7 @@ namespace Parcial2
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(541, 347);
+            this.tabControl1.Size = new System.Drawing.Size(610, 347);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -78,7 +78,7 @@ namespace Parcial2
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(533, 319);
+            this.tabPage1.Size = new System.Drawing.Size(602, 319);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Agregar dirección";
             // 
@@ -121,7 +121,7 @@ namespace Parcial2
             this.tabPage3.Controls.Add(this.label2);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(533, 321);
+            this.tabPage3.Size = new System.Drawing.Size(602, 321);
             this.tabPage3.TabIndex = 1;
             this.tabPage3.Text = "Editar dirección";
             // 
@@ -181,7 +181,7 @@ namespace Parcial2
             this.tabPage4.Controls.Add(this.label4);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(533, 321);
+            this.tabPage4.Size = new System.Drawing.Size(602, 321);
             this.tabPage4.TabIndex = 2;
             this.tabPage4.Text = "Eliminar dirección";
             // 
@@ -221,7 +221,7 @@ namespace Parcial2
             this.tabPage5.Controls.Add(this.dataGridView1);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(533, 321);
+            this.tabPage5.Size = new System.Drawing.Size(602, 321);
             this.tabPage5.TabIndex = 3;
             this.tabPage5.Text = "Ver direcciones";
             // 
@@ -232,7 +232,7 @@ namespace Parcial2
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(533, 321);
+            this.dataGridView1.Size = new System.Drawing.Size(602, 321);
             this.dataGridView1.TabIndex = 0;
             // 
             // fmrPrincipalUsuario
@@ -240,9 +240,11 @@ namespace Parcial2
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(541, 347);
+            this.ClientSize = new System.Drawing.Size(610, 347);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "fmrPrincipalUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fmrPrincipalUsuario";
             this.Load += new System.EventHandler(this.fmrPrincipalUsuario_Load);
             this.tabControl1.ResumeLayout(false);

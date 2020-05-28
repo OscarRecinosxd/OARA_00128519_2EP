@@ -105,7 +105,7 @@ namespace Parcial2
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(71, 177);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 23);
+            this.label2.Size = new System.Drawing.Size(149, 35);
             this.label2.TabIndex = 1;
             this.label2.Text = "Descripcion";
             // 
@@ -126,10 +126,10 @@ namespace Parcial2
             this.tabPage2.Controls.Add(this.btnEliminarNegocio);
             this.tabPage2.Controls.Add(this.comboNombreEliminar);
             this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(566, 389);
+            this.tabPage2.Size = new System.Drawing.Size(566, 391);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Eliminar negocio";
             // 
@@ -170,7 +170,9 @@ namespace Parcial2
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(574, 417);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Negocios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Negocios";
             this.Load += new System.EventHandler(this.Negocios_Load);
             this.tabControl1.ResumeLayout(false);

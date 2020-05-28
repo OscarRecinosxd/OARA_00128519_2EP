@@ -12,22 +12,32 @@ namespace Parcial2
 
         private void OrdenesPedidas_Load(object sender, EventArgs e)
         {
+            poblar();
+        }
 
-            string sql = $"SELECT C.idorder, A.fullname, B.adress , D.name , E.name " +
-                         $"FROM APPUSER A, ADDRESS B, APPORDER C, PRODUCT D, BUSINESS E" +
-                         $" WHERE A.iduser = B.idUser AND B.idaddress = C.idaddress " +
-                         $"AND C.IDProduct = E.idBUSINESS AND E.idbusiness =D.idbusiness";
+        private void poblar()
+        {
             
+            string sql = $"SELECT ao.idOrder, ao.createDate, pr.name, au.fullname, ad.address " +
+                         $"FROM APPORDER ao, ADDRESS ad, PRODUCT pr, APPUSER au " +
+                         $"WHERE ao.idProduct = pr.idProduct " +
+                         $"AND ao.idAddress = ad.idAddress " +
+                         $"AND ad.idUser = au.idUser ";
+
+
+
             var dt = Conexion.realizarConsulta(sql);
-            
-            dt.Columns[0].ColumnName = "Id de orden";
-            dt.Columns[1].ColumnName = "Nombre completo";
-            dt.Columns[2].ColumnName = "Dirección";
-            dt.Columns[3].ColumnName = "Producto";
-            dt.Columns[4].ColumnName = "Negocio";
-            
+
+            dt.Columns[0].ColumnName = "ID orden";
+            dt.Columns[1].ColumnName = "Fecha";
+            dt.Columns[2].ColumnName = "Negocio";
+            dt.Columns[3].ColumnName = "Nombre completo";
+            dt.Columns[4].ColumnName = "Dirección";
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = dt;
         }
-    }
+
+
+}
+    
 }

@@ -7,7 +7,7 @@ namespace Parcial2
     {
         public static List<string> getDireccion()
         {
-            string sql = "SELECT ADRESS FROM ADDRESS";
+            string sql = "SELECT ADDRESS FROM ADDRESS";
             string u = "";
             DataTable dt = Conexion.realizarConsulta(sql);
             List<string> lista = new List<string>();

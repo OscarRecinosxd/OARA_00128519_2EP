@@ -35,6 +35,8 @@ namespace Parcial2
             this.btnNegocios = new System.Windows.Forms.Button();
             this.btnProductos = new System.Windows.Forms.Button();
             this.btnOrdenes = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnUsuarios
@@ -73,7 +75,7 @@ namespace Parcial2
             // btnOrdenes
             // 
             this.btnOrdenes.BackColor = System.Drawing.Color.White;
-            this.btnOrdenes.Location = new System.Drawing.Point(43, 341);
+            this.btnOrdenes.Location = new System.Drawing.Point(43, 342);
             this.btnOrdenes.Name = "btnOrdenes";
             this.btnOrdenes.Size = new System.Drawing.Size(152, 62);
             this.btnOrdenes.TabIndex = 3;
@@ -81,18 +83,32 @@ namespace Parcial2
             this.btnOrdenes.UseVisualStyleBackColor = false;
             this.btnOrdenes.Click += new System.EventHandler(this.btnOrdenes_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Parcial2.Properties.Resources.Hugo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(301, 105);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(229, 253);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // AdmiOpciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(570, 468);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnOrdenes);
             this.Controls.Add(this.btnProductos);
             this.Controls.Add(this.btnNegocios);
             this.Controls.Add(this.btnUsuarios);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AdmiOpciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdmiOpciones";
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
         }
 
@@ -102,5 +118,6 @@ namespace Parcial2
         private System.Windows.Forms.Button btnUsuarios;
         private System.Windows.Forms.Button btnProductos;
         private System.Windows.Forms.Button btnOrdenes;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

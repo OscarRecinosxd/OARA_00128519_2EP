@@ -22,7 +22,8 @@ namespace Parcial2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            OrdenesUsuario ventana = new OrdenesUsuario();
+            ventana.Show();
         }
     }
 }

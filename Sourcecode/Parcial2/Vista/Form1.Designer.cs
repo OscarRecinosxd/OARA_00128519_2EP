@@ -35,6 +35,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnIniciarSesion = new System.Windows.Forms.Button();
             this.btnCambiarContrasenia = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbUsuario
@@ -49,6 +51,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(316, 207);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(201, 23);
             this.txtPassword.TabIndex = 1;
             this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
@@ -107,12 +110,23 @@
             this.btnCambiarContrasenia.UseVisualStyleBackColor = false;
             this.btnCambiarContrasenia.Click += new System.EventHandler(this.btnCambiarContrasenia_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Parcial2.Properties.Resources.Hugo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(31, 98);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(233, 245);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(547, 460);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCambiarContrasenia);
             this.Controls.Add(this.btnIniciarSesion);
             this.Controls.Add(this.label2);
@@ -120,9 +134,12 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.cmbUsuario);
             this.ForeColor = System.Drawing.Color.Purple;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -135,5 +152,6 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.ComboBox cmbUsuario;
         private System.Windows.Forms.Button btnIniciarSesion;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

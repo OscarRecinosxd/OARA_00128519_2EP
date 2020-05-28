@@ -170,7 +170,9 @@ namespace Parcial2
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(577, 442);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Productos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Productos";
             this.Load += new System.EventHandler(this.Productos_Load);
             this.tabControl1.ResumeLayout(false);

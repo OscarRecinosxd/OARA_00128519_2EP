@@ -51,7 +51,9 @@ namespace Parcial2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(783, 445);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "OrdenesPedidas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrdenesPedidas";
             this.Load += new System.EventHandler(this.OrdenesPedidas_Load);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
